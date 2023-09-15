@@ -3,8 +3,6 @@ public class Hero {
     private int damage;
     private String ability;
 
-    Hero() {}
-
     public Hero(int health, int damage, String ability) {
         this.health = health;
         this.damage = damage;
@@ -16,18 +14,16 @@ public class Hero {
         this.damage = damage;
     }
 
-    public int getHealth() {
 
+    public int getHealth() {
         return health;
     }
 
     public int getDamage() {
-
         return damage;
     }
 
     public String getAbility() {
-
         return ability;
     }
 }
